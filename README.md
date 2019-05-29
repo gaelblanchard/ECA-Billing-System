@@ -20,11 +20,9 @@ Implement a GUI which uses an underlying SQL database to graph data, search data
 # Our Data:
 3 seperate csv files are provided. Therefore, cleanup is not necessary. However if cleanup was necessary we could incorporate seperate procedures on every csv file following these stipulations:
 
-Patient Csv file: Ensure no repetitions in user_id, and proper formats for all columns
-
-Billing Csv file: Ensure there is no duplicate data and all distance values are non-negative
-
-Insurance Csv file: Ensure that Interest Level is a positive integer on the 1-10 scale. Ensure that all user_ids are valid and that all interests are valid
+1. Ensure that there are no duplicate records
+2. Ensure that no two patients share
+3. Ensure that all billing amounts are numerical and valid
 
 # How it Works:
 By first reading our csvs using an sql statement we instantiate our database.We use tkinter to define the gui's options and link functions where necessary to link sql statements to certain options to return graphs or records.
