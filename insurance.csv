@@ -1,0 +1,12 @@
+Insurance_id,Name,InsuranceType
+1,United Healthcare,Commercial
+2,Medicare,Commercial
+3,Medicaid,Commercial
+4,Aetna,Commercial
+5,GHI,Commercial
+6,HIP ,Medicare
+7,Fidelis Care,Medicaid
+8,Metro Plus,Medicaid
+9,GHI,Medicare
+10,Affinity Health Plan,Medicaid
+11,Well Care,Medicare
